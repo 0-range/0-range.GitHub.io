@@ -1,0 +1,42 @@
+{
+  "name": "country-stat-city-api-docs",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "serve": "docusaurus serve",
+    "prettier": "prettier --config .prettierrc --write \"**/*.{js,ts}\"",
+    "prettier:diff": "prettier --config .prettierrc --list-different \"**/*.{js,ts}\"",
+    "prettier-docs": "prettier --config .prettierrc --write \"**/*.md\""
+  },
+  "dependencies": {
+    "@docusaurus/core": "^2.0.0-beta.0",
+    "@docusaurus/preset-classic": "^2.0.0-beta.0",
+    "@mdx-js/react": "^1.6.0",
+    "clsx": "^1.1.1",
+    "docusaurus-plugin-sass": "^0.1.14",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-typeform-embed": "^0.2.1",
+    "sass": "^1.32.13"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "prettier": "^2.3"
+  }
+}
