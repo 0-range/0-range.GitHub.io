@@ -30,7 +30,7 @@ function Hero() {
               "button button--lg",
               styles.getStarted
             )}
-            to={useBaseUrl("docs/")}
+            to={"https://github.com/naaive/orange/releases"}
           >
             Get Started
           </Link>
